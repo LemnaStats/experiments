@@ -14,7 +14,7 @@ ggplot(alllong, aes(Season, FGValue)) +
   geom_path(size=2,aes(color=ShotsAndMakes)) +
   scale_color_discrete(
     name = element_blank(),
-    labels = c("Field Goal Shots","Field Goals Scored")) +
+    labels = c("Field Goals Scored","Field Goals Shot")) +
   labs(y="Field Goal Shots or Makes", 
        title = "NBA Avg. Field Goals Made per Game over Time", 
        caption = "Graph by Lemna Statistics. Data from Basketball Reference")
